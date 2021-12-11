@@ -1,4 +1,4 @@
-# ames of all soft-links on your VM
+# Names of all soft-links on your VM
 find / -type l -exec ls -la '{}' \; 1>> /var/softlinks.txt 2> /dev/null
 
 # Count of block and character devices
